@@ -30,6 +30,7 @@ public class DayDetails extends AppCompatActivity {
     public static String[] Time4;
     public static String[] Time5;
     public static String[] Time6;
+    public static String[] Time7;
     private String[] PrefferedDay;
     private String[] PrefferedTime;
     @Override
@@ -38,6 +39,7 @@ public class DayDetails extends AppCompatActivity {
         setContentView(R.layout.activity_day_details);
         setupUIViews();
         initToolbar();
+        setListView();
     }
     private void setupUIViews(){
         listView=(ListView)findViewById(R.id.lvDayDetail);
@@ -63,6 +65,7 @@ public class DayDetails extends AppCompatActivity {
         Time4 = getResources().getStringArray(R.array.time4);
         Time5 = getResources().getStringArray(R.array.time5);
         Time6 = getResources().getStringArray(R.array.time6);
+        Time7=getResources().getStringArray(R.array.time7);
 
         String selected_day = WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY, null);
 
@@ -92,8 +95,10 @@ public class DayDetails extends AppCompatActivity {
         }
         else {
             PrefferedDay=Sunday;
+            PrefferedTime = Time7;
         }
         SimpleAdapter sadap=new SimpleAdapter(this,PrefferedDay,PrefferedTime);
+        listView.setAdapter(sadap);
     }
     public class SimpleAdapter extends BaseAdapter {
         private Context mcon;
@@ -131,10 +136,12 @@ public class DayDetails extends AppCompatActivity {
                 view = lf.inflate(R.layout.day_details_single_item, null);
             }
             subject = (TextView) view.findViewById(R.id.tvSubDayDetails);
-            time = (TextView) view.findViewById(R.id.tvTImeDayDetails);
+            time = (TextView) view.findViewById(R.id.tvTimeDayDetails);
             ltrimgv = (LetterImageView) view.findViewById(R.id.ivDayDetails);
             subject.setText(subjectArray[i]);
             time.setText(timeArray[i]);
+            ltrimgv.setOval(true);
+            ltrimgv.setLetter(subjectArray[i].charAt(0));
 
             return view;
         }

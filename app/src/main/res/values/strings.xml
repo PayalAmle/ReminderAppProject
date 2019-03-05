@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ReminderApp</string>
+    <string-array name="Main">
+        <item>Timetable</item>
+        <item>Event</item>
+    </string-array>
+    <string-array name="Description">
+        <item>Time table for complete week is available here!</item>
+        <item>If you want to notify about some upcoming event!</item>
+    </string-array>
+    <string-array name="Week">
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+        <item>SUNDAY</item>
+    </string-array>
+    <string-array name="Monday">
+    <item>Artificial Intelligence</item>
+     <item>Software Engineering</item>
+     <item>Break</item>
+     <item>OOMD Lab</item>
+    </string-array>
+    <string-array name="Tuesday">
+        <item>Mobile Computing</item>
+        <item>OOMD</item>
+        <item>Break</item>
+        <item>SE Lab</item>
+    </string-array>
+    <string-array name="Wednesday">
+        <item>Network Programming</item>
+        <item>Software Engineering</item>
+        <item>Break</item>
+        <item>Managerial Economics</item>
+    </string-array>
+    <string-array name="Thursday">
+        <item>Artificial Intelligence</item>
+        <item>OOMD</item>
+        <item>Break</item>
+        <item>SE Lab</item>
+    </string-array>
+    <string-array name="Friday">
+        <item>Mobile Computing</item>
+        <item>Network Programming</item>
+        <item>Break</item>
+        <item>SE Lab</item>
+    </string-array>
+    <string-array name="Saturday">
+        <item>Training and Placement</item>
+        <item>Break</item>
+        <item>Training and Placement</item>
+
+
+    </string-array>
+    <string-array name="Sunday">
+        <item>Holiday!!</item>
+    </string-array>
+    <string-array name="time1">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 1:00PM</item>
+        <item>1:00PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time2">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 1:00PM</item>
+        <item>1:00PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time3">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 1:00PM</item>
+        <item>1:00PM - 2:00PM</item>
+        <item>2:00PM - 5:00PM</item>
+    </string-array>
+    <string-array name="time4">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 1:00PM</item>
+        <item>1:00PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time5">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 1:00PM</item>
+        <item>1:00PM - 2:00PM</item>
+        <item>2:00PM - 4:00PM</item>
+    </string-array>
+    <string-array name="time6">
+        <item>9:00AM - 11:00AM</item>
+        <item>11:00AM - 11:30AM</item>
+        <item>11:30AM - 1:00PM</item>
+
+    </string-array>
+    <string-array name="time7">
+        <item>Holiday!!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "574958764348",
+    "firebase_url": "https://myremiderapp.firebaseio.com",
+    "project_id": "myremiderapp",
+    "storage_bucket": "myremiderapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574958764348:android:c20805adcb8913ba",
+        "android_client_info": {
+          "package_name": "com.example.reminderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574958764348-35tn14oajbogcljqtm6rc6326r1ufa6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWeLHHNXZe9KOYEPF7TECqHIPw6HsKJKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
