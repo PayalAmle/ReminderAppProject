@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void sendtech(View view){
-        Intent intent=new Intent(this,Start_Page1.class);
+        Intent intent=new Intent(this,Teacher_Login.class);
         startActivity(intent);
     }
 
