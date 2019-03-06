@@ -18,10 +18,10 @@
         <item>SUNDAY</item>
     </string-array>
     <string-array name="Monday">
-    <item>Artificial Intelligence</item>
-     <item>Software Engineering</item>
-     <item>Break</item>
-     <item>OOMD Lab</item>
+        <item>Artificial Intelligence</item>
+        <item>Software Engineering</item>
+        <item>Break</item>
+        <item>OOMD Lab</item>
     </string-array>
     <string-array name="Tuesday">
         <item>Mobile Computing</item>
