@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -13,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.support.v7.widget.Toolbar;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Entrypge extends AppCompatActivity {
     private Toolbar toolbar;
@@ -25,6 +29,22 @@ public class Entrypge extends AppCompatActivity {
         setupUIViews();
         initToolbar();
         setUpListView();
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.menu_sign_out:
+                FirebaseAuth.getInstance().signOut();
+                finish();
+                startActivity(new Intent(this,Start_Page1.class));
+                break;
+        }
+        return true;
     }
 
     private void setupUIViews() {

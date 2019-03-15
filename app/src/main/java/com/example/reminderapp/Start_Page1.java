@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,6 +35,11 @@ public class Start_Page1 extends AppCompatActivity {
             r2.setVisibility(View.VISIBLE);
         }
     };
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,9 +99,11 @@ public class Start_Page1 extends AppCompatActivity {
 
     }
 
+
     public void sendReg(View view){
         Intent intent=new Intent(this,registration_student.class);
         startActivity(intent);
 
     }
+
 }

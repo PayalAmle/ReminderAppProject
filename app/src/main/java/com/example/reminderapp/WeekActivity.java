@@ -36,6 +36,7 @@ public class WeekActivity extends AppCompatActivity {
         setUpListView();
 
     }
+
     private void setUIViews(){
         toolbar=(Toolbar)findViewById(R.id.ToolbarWeek);
         listView=(ListView)findViewById(R.id.lvWeek1);
@@ -146,6 +147,7 @@ public class WeekActivity extends AppCompatActivity {
             }
             return false;
         }
+
 
 
     }
