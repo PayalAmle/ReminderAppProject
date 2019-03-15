@@ -139,10 +139,13 @@ public class registration_student extends AppCompatActivity {
 
         }
         private void addPerson(){
-
-            if(!TextUtils.isEmpty(name.getText().toString())){
+            String nme=name.getText().toString();
+            String email=emailid.getText().toString();
+            String passw=pass.getText().toString();
+            if(!TextUtils.isEmpty(nme)){
                 String id=dteid.push().getKey();
-                Person person=new Person(id,name.getText().toString(),emailid.getText().toString(),pass.getText().toString());
+
+                Person person=new Person(id,nme,email,passw);
                 dteid.child(id).setValue(person);
                 Toast.makeText(this,"Welcome",Toast.LENGTH_SHORT).show();
             }
