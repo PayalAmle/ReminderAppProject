@@ -9,6 +9,10 @@ public class Person {
 
     }
     public Person(String prsnid,String prsnname,String prsneid,String prsnpass){
+        this.prsnid=prsnid;
+        this.prsnname=prsnname;
+        this.prsneid=prsneid;
+        this.prsnpass=prsnpass;
 
     }
 
